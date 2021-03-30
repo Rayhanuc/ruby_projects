@@ -12,9 +12,17 @@ say_hello "Hello World Ruby is great!"
 
 
 # String concatenation
-"My"
-# String interpolation
+# sentence = "My name is Rayhan Uddin Chowdhury"
+# p sentence
 
+first_name = "Rayhan"
+middle_name = "Uddin"
+last_name = "Chowdhury"
+
+puts first_name + " " + middle_name + " " + last_name
+
+# String interpolation
+puts "My first name is #{first_name} middle name is #{middle_name} and last name is #{last_name}"
 # Methods, how to find them
 
 # Common Methods
